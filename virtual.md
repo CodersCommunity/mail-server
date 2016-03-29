@@ -4,7 +4,7 @@ Aby łatwo zarządzać kontami użytkowników (np. poprzez własny panel w PHP) 
 Warto stworzyć również osobnego użytkownika, który będzie miał do niej pełne prawa.
 
 Tworzymy tabelę z domenami:
-```
+```sql
 CREATE TABLE IF NOT EXISTS `virtual_domains` (
     `id`  INT NOT NULL AUTO_INCREMENT,
     `name` VARCHAR(50) NOT NULL,
@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS `virtual_domains` (
 ```
 
 Tworzymy tabelę dla użytkowników z relacją do domen:
-```
+```sql
 CREATE TABLE IF NOT EXISTS `virtual_users` (
     `id` INT NOT NULL AUTO_INCREMENT,
     `domain_id` INT NOT NULL,
@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS `virtual_users` (
 
 
 Tworzymy tabelę aliasów z relacją do domen:
-```
+```sql
 CREATE TABLE IF NOT EXISTS `virtual_aliases` (
     `id` INT NOT NULL AUTO_INCREMENT,
     `domain_id` INT NOT NULL,
@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS `virtual_aliases` (
 ```
 
 Tworzymy tabelę personalnych preferencji użytkownika w filtrowaniu SPAMu:
-```
+```sql
 CREATE TABLE IF NOT EXISTS `userpref` (
         `username` varchar(100) NOT NULL,
         `preference` varchar(30) NOT NULL,

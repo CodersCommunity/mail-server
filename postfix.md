@@ -114,7 +114,5 @@ Przy zabezpieczaniu tych plików należy uwzględnić, ze użytkownik `postfix` 
 
 Błędów w konfiguracji należy szukać w `/var/log/mail.warn` oraz `/var/log/mail.err`. Domyślnie postfix rzuca logi również do sysloga w `/var/log/syslog`.
 
-Nie pozostaje już nic innego jak odpalić postfixa poleceniem: `sudo service postfix start` i liczyć, że wystartuje.
-Jeśli tak się nie stanie - nie panikuj. Spokojnie zobacz do loga i na pewno znajdziesz błąd.
+Nie startujemy postfixa, ponieważ potrzebujemy jeszcze serwera IMAP. Wybierzemy `dovecot`. Zapraszam do następnego rozdziału.
 
-Jeśli wszystko poszło okej na wyjściu polecenia `sudo netstat -plnt` powinniśmy zobaczyć `master` słuchający na portach 25 oraz 587.
