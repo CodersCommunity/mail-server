@@ -8,7 +8,7 @@ Jak postawić własny serwer email, który nie wpada do SPAMu i sam SPAM filtruj
 - [Konfiguracja DNS.](https://github.com/CodersCommunity/mail-server/blob/master/dns.md)
 - [Wirtualne domeny, użytkownicy i aliasy w mySQL.](https://github.com/CodersCommunity/mail-server/blob/master/virtual.md)
 - [Instalacja i konfigurcja postfix.](https://github.com/CodersCommunity/mail-server/blob/master/postfix.md)
-- Instalacja i konfiguracja opendkim.
+- [Instalacja i konfiguracja opendkim.](https://github.com/CodersCommunity/mail-server/blob/master/dkim.md)
 - Instalacja i konfiguracja dovecot.
 - Instalacja i konfiguracja spamassassin.
 - Testowanie poprawności konfiguracji.
