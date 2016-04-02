@@ -16,7 +16,7 @@ Główny plik konfiguracyjny `/etc/dovecot/dovecot.conf` robi to co większość
 Jedyne co musimy w nim teraz zrobić to dodać taką linijkę:
 ```
 protocols = imap lmtp
-``
+```
 
 Włącza ona dovecot do działania na protokołach:
 
