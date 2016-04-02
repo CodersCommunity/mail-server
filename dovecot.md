@@ -7,7 +7,7 @@ W tym artykule pokazuję jak skonfigurować go pod IMAP. Powodem tego jest ciąg
 ### Instalacja
 
 ```
-sudo apt-get update && sudo apt-get install dovecot-imapd dovecot-sieve dovecot-lmtp && sudo service dovecot stop
+sudo apt-get update && sudo apt-get install dovecot-imapd dovecot-lmtp && sudo service dovecot stop
 ```
 
 ### Konfiguracja
