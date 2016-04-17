@@ -9,7 +9,7 @@ Jeśli nie będą się zgadzać, będzie mógł rozpoznać ewentualnego podszywa
 
 ### Instalacja
 ```
-sudo apt-get update && sudo apt-get install opendkim opendkim-tools && sudo service opendkim stop
+sudo apt update && sudo apt install opendkim opendkim-tools && sudo service opendkim stop
 ```
 
 ### Konfiguracja główna

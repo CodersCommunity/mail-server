@@ -7,7 +7,7 @@ Kiedy klient łączy się do postfixa, aby wysłać wiadomość robi to najczę�
 
 ### Instalacja
 ```
-sudo apt-get update && sudo apt-get install postfix && sudo service postfix stop
+sudo apt update && sudo apt install postfix && sudo service postfix stop
 ```
 
 ### Struktura plików konfiguracyjnych
